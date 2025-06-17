@@ -38,7 +38,7 @@ server.login(from_email_addr, from_email_pass)
 # Send the message
 server.send_message(msg)
 
-print(f'Email sent to {to_email_addr}')
+print("Email sent.")
 
 #Disconnect from the Server
 server.quit()
